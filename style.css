@@ -1,0 +1,97 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+ }
+
+header {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#top_title {
+    background-color: black;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+    font-size: 30px;
+    margin: auto;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    width: 373px;
+    height: 96px;
+    z-index: 3;
+    filter: drop-shadow(4px 4px 3px black);
+    
+}
+
+#pikachu {
+    display: block;
+    margin: auto;
+    width: 480px;
+    height: 480px;
+    padding-top: 60px;
+    filter: drop-shadow(16px 16px 10px black);
+}
+
+#clefairy {
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    width: 120px;
+    height: 120px;
+    z-index: 1000;
+}
+
+#jigg {
+    position: absolute;
+    top: 250px;
+    left: 470px;
+    width: 120px;
+    height: 120px;
+    z-index: 1000;
+}
+
+#shellder {
+    position: absolute;
+    top: 200px;
+    left: 630px;
+    width: 120px;
+    height: 120px;
+    z-index: 1000;
+}
+
+#totodile {
+    position: absolute;
+    top: 280px;
+    left: 770px;
+    width: 120px;
+    height: 120px;
+    z-index: 1000;
+}
+
+#bottom {
+    position: absolute;
+    z-index: 1000;
+    top: 500px;
+    left: 10px;
+}
